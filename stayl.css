@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+ 
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.next , .prev {
+    border: none;
+    background-color: lime;
+    color: white;
+    width: 250px;
+    border-radius: 15px;
+}
+.content {
+    width: 300px;
+    height: 100px; 
+    background-color: lightgray;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 20px;
+    border: solid 99.99px blue; 
+    transition: width 0.3s, border-width 0.3s;
+}
+
+.controls button {
+    padding: 10px 20px;
+    font-size: 50px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+.dis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+    font-size: 50px;
+}
+.List1 , .List2 , .List3 {
+    border: solid 5px rgba(128, 128, 128, 0.22);
+    width: 33.33px;
+
+    transition: calc(1s);
+
+}
+.son{
+    border: solid 2px gray;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.m{
+    border: solid 5px dodgerblue;
+    transition: calc(1s);
+ 
+}
+body{
+    padding: 200px;
+    background-color: rgba(128, 128, 128, 0.196);
+}
